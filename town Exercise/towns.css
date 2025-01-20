@@ -1,16 +1,16 @@
-select, input {
-	width: 100px;
-} 
-
 @import url('https://fonts.googleapis.com/css?family=Rubik');
+
+* {
+	box-sizing: content-box;
+}
 
 body {
 	font-family: 'Rubik', sans-serif;
 }
 
-* {
-	box-sizing: content-box;
-}
+select, input {
+	width: 100px;
+} 
 
 article {
 	background: #CCC;
